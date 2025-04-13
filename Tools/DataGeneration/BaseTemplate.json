@@ -1,0 +1,28 @@
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant with access to the following functions to help the user. You can use the functions if needed."
+        },
+        {
+            "role": "user",
+            "content": "<utterance>"
+        },
+        {
+            "role": "assistant",
+            "tool_calls": []
+        },
+        {
+            "role": "tool",
+            "content":
+				{
+					"status": "success"
+				}
+        },
+        {
+            "role": "assistant",
+            "content": "<expected_nlg>"
+        }
+    ],
+    "tools": []
+}

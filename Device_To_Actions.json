@@ -1,0 +1,74 @@
+{
+    "airconditioner" : ["device_turnOff","device_turnOn","airConditioningMode_getValue","airConditioningMode_setValue","deviceTemperatureSetting_setValue",
+    "deviceTemperatureSetting_getValue","deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease", "coolingTemperature_decrease", "coolingTemperature_increase", "deviceNetwork_getStatus", "deviceTemperature_getValue", "devicePlugin_show", "device_cancel", "device_increase", "mode_setValue"],
+
+    "airdresser" : ["device_turnOff","device_turnOn","dressing_start","dressing_cancel", "dressing_getProgress", "dressing_getRemainingTime", "dressing_getStatus", "dressing_getSupportedCourses", "dressing_pause", "dressingMode_setValue", "dressing_startCourse"],
+
+    "blind" : ["device_open", "device_openPartial", "device_close", "device_closePartial","deviceState_getCloseStatus","deviceState_getOpenStatus"],
+
+    "shoedresser" : ["device_turnOff","device_turnOn","dressing_cancel","dressing_getProgress","dressing_getRemainingTime","dressing_getStatus","dressing_getSupportedCourses","dressingMode_setValue","dressing_pause","dressing_start","dressing_startCourse"],
+
+    "airpurifier" : ["device_turnOff","device_turnOn","mode_setValue","mode_getValue", "device_cancel", "device_pause", "device_start", "device_stop"],
+
+    "boiler" : ["device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","deviceTemperatureSetting_increase",
+    "deviceTemperatureSetting_decrease","currentTemperature_getValue","heatingTemperature_decrease","heatingTemperature_getValue","heatingTemperature_increase","heatingTemperaturesetValue"],
+
+    "camera" : ["device_turnOff","device_turnOn","camera_show"],
+
+    "cooktop" : ["device_turnOff","device_turnOn","cooking_start","cooking_startCourse","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","cookingTimer_getRemainingTime","cookingTimer_increase","cookingTimer_setValue",
+    "deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease","currentTemperature_getValue","cooking_cancel","cooking_getStatus","cooking_pause","cooking_setCourse","cookingTimer_decrease"],
+
+    "dehumidifier" : ["device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","currentTemperature_getValue",
+    "deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease"],
+
+    "dishwasher" : ["device_turnOff","device_turnOn","dishWashing_cancel", "dishWashing_getProgress", "dishWashing_getRemainingTime", "dishWashing_getStatus", "dishWashing_getSupportedCourses", "dishWashing_pause", "dishWashing_setCourse", "dishWashing_start", "dishWashing_startCourse"],
+
+    "dryer" : ["device_turnOff","device_turnOn","drying_cancel", "device_pause", "drying_getProgress", "drying_getRemainingTime", "drying_getStatus", "drying_getSupportedCourses","dryingLevel_decrease","dryingLevel_increase","dryingLevel_setValue","drying_pause","drying_setCourse","drying_start","drying_startCourse","dryingTime_decrease", "dryingTime_increase", "dryingTime_setValue",  "mode_getValue", "mode_setValue"],
+
+    "fan" : ["device_turnOff","device_turnOn"],
+
+    "humidifier" : ["device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","deviceTemperatureSetting_increase",
+    "deviceTemperatureSetting_decrease","currentTemperature_getValue"],
+
+    "krefrigerator" : ["device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue",
+    "deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease","currentTemperature_getValue"],
+
+    "light" : ["device_turnOff","device_turnOn","brightness_decrease","brightness_getValue","brightness_increase","brightness_setValue","colorControl_setValue", "brightness_decreasePartial", "brightness_increasePartial", "brightness_setMax", "brightness_setMin", "colorTemperature_getValue", "colorTemperature_setValue", "colorMode_setValue"],
+
+    "microwave" : ["device_turnOff","device_turnOn","cooking_getProgress","cooking_start","cooking_startCourse","cookingTemperature_decrease","cookingTemperature_getValue","cookingTemperature_increase","cookingTemperature_setValue","microwave_start","mode_getValue","currentTemperature_getValue","cooking_cancel","cooking_getStatus","cooking_pause","cooking_setCourse","cookingTimer_decrease","cookingTimer_getRemainingTime","cookingTimer_increase","cookingTimer_setValue","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease","microwave_start","mode_setValue","mode_getValue"],
+
+    "oven" : ["cooking_getProgress","cooking_start","cooking_startCourse","cookingTemperature_decrease","cookingTemperature_getValue","cookingTemperature_increase","cookingTemperature_setValue", "mode_getValue","cooking_cancel","cooking_getStatus","cooking_pause","cooking_setCourse","cookingTimer_decrease","cookingTimer_getRemainingTime","cookingTimer_increase","cookingTimer_setValue","device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease","microwave_start","mode_setValue", "cookingTemperature_decrease", "cookingTemperature_increase", "cookingTemperature_getValue", "cookingTemperature_setValue", "device_startCourse", "cooking_getProgress"],
+    "projector" : ["brightness_decrease","brightness_getValue","brightness_increase","brightness_setValue","colorControl_setValue",
+    "device_turnOff","device_turnOn","media_play","media_pause","media_stop","mute_turnOn","mute_turnOff","volume_increase","volume_getValue",
+    "volume_decrease", "volume_setHalf", "volume_setMax", "volume_setMin", "brightness_decreasePartial", "brightness_increasePartial",
+    "brightness_setMax", "brightness_setMin","colorTemperature_getValue", "colorTemperature_setValue"],
+    "refrigerator" : ["device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue",
+    "deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease","currentTemperature_getValue", "bixbyVolume_decrease", "bixbyVolume_setMax", "bixbyVolume_setMin", "bixbyVolume_setValue", "deviceNetwork_getStatus", "deviceTemperature_getValue", "device_getModelName", "device_getUpdateStatus", "device_stop", "door_close", "mode_getValue"],
+
+    "ricecooker" : ["cooking_getProgress","cooking_start","cooking_startCourse","cookingTemperature_decrease","cookingTemperature_getValue","cookingTemperature_increase","cookingTemperature_setValue","cooking_cancel","cooking_getStatus","cooking_pause","cooking_setCourse","cookingTimer_decrease","cookingTimer_getRemainingTime","cookingTimer_increase","cookingTimer_setValue","device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","deviceTemperatureSetting_increase",
+    "deviceTemperatureSetting_decrease"],
+
+    "robotcleaner" : ["device_turnOff","device_turnOn","cleaning_getProgress","cleaning_getStatus","cleaningMap_create","cleaningMap_remove","cleaningOption_turnOff","cleaningOption_turnOn","cleaning_pause","cleaning_setMode","cleaning_start","cleaning_startExclude","cleaning_stop","device_decrease", "device_move"],
+    
+    "speaker" : ["device_turnOff","device_turnOn","volume_increase","volume_getValue","volume_decrease", "volume_setHalf", "volume_setMax", "volume_setMin", "volume_setValue", "media_pause", "media_play", "media_stop"],
+
+    "steamcloset" : ["device_turnOff","device_turnOn","dressing_cancel","dressing_getProgress","dressing_getRemainingTime","dressing_getStatus","dressing_getSupportedCourses","dressingMode_setValue","dressing_pause","dressing_start","dressing_startCourse"],
+
+    "stickcleaner" : ["device_turnOff","device_turnOn","cleaning_getProgress","cleaning_getStatus","cleaningMap_create","cleaningMap_remove","cleaningOption_turnOff","cleaningOption_turnOn","cleaning_pause","cleaning_setMode","cleaning_start","cleaning_startExclude","cleaning_stop"],
+    "smartlock" : ["deviceState_getCloseStatus","deviceState_getOpenStatus"],
+
+    "thermostat" : ["device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue","deviceTemperatureSetting_increase",
+    "deviceTemperatureSetting_decrease","currentTemperature_getValue","heatingTemperature_decrease","heatingTemperature_getValue","heatingTemperature_increase","heatingTemperature_setValue"],
+    "tv" : ["channel_getValue","channel_setByName","application_exit","application_launch","application_search","brightness_decrease","channel_decrease","colorTemperature_getValue", "colorTemperature_setValue",
+    "brightness_getValue","brightness_increase","brightness_setValue","channel_setByNumber","channel_setPrevious","colorControl_setValue","channel_increase",
+    "device_turnOff","device_turnOn","media_play","media_pause","media_stop","mute_turnOn","mute_turnOff","volume_increase","volume_getValue","channel_setValue",
+    "volume_decrease", "volume_setHalf", "volume_setMax", "volume_setMin", "brightness_decreasePartial", "brightness_increasePartial", "brightness_setMax", "brightness_setMin", "channel_setByProgram", "bixbyVolume_decrease", "bixbyVolume_getValue", "bixbyVolume_increase", "bixbyVolume_setMax", "bixbyVolume_setMin", "bixbyVolume_setValue", "deviceNetwork_getStatus", "devicePlugin_show", "device_getModelName", "device_getUpdateStatus", "device_start", "volume_setValue"],
+    
+    "washer" : ["device_turnOff","device_turnOn","washing_pause","washing_setCourse","washing_start","washing_startCourse","washingTemperature_decrease","washingTemperature_increase","washingTemperatureMode_setValue","washingTemperature_setColdWater","washingTemperature_setHotWater","washingTemperature_setValue","washing_cancel","washing_getRemainingTime","washing_getProgress", "device_decrease", "device_decrease", "device_pause", "dryingLevel_increase", "dryingLevel_setValue", "dryingTime_increase","door_open", "mode_setValue"],
+
+    "waterpurifier" : ["device_turnOff","device_turnOn","deviceTemperatureSetting_setValue","deviceTemperatureSetting_getValue",
+    "deviceTemperatureSetting_increase","deviceTemperatureSetting_decrease","currentTemperature_getValue"],
+    "watervalve" : ["deviceState_getCloseStatus","deviceState_getOpenStatus"],
+
+    "gasvalve" : ["deviceState_getCloseStatus","deviceState_getOpenStatus"]
+}

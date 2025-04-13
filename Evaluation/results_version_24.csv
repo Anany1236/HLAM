@@ -1,0 +1,249 @@
+utterance,Pred_vi,Actual_vi,Pred_slots,Actual_slots,vi_result,slot_result,overall_success
+Turn off cooktop hood,device-turnOff,device-turnOff,"{""device"": ""cooktop hood""}","{""device"": ""cooktop hood""}",True,True,True
+Turn off cooktop hood,device-turnOff,device-turnOff,"{""device"": ""cooktop hood""}","{""device"": ""cooktop hood""}",True,True,True
+Turn off microwave hood,device-turnOff,device-turnOff,"{""device"": ""microwave hood""}","{""device"": ""microwave hood""}",True,True,True
+Turn off the mood lighting,device-turnOff,device-turnOff,"{""device"": ""mood lighting""}","{""device"": ""mood lighting""}",True,True,True
+Turn off the vent switch,device-turnOff,device-turnOff,"{""device"": ""vent""}","{""device"": ""vent switch""}",True,False,False
+Turn off interior lighting of hall,device-turnOff,device-turnOff,"{""device"": ""lighting""}","{""device"": ""interior lighting"", ""location"": ""hall""}",True,False,False
+Pause the cleaning,cleaning-stop,cleaning-pause,"{""location"": ""house"", ""room"": ""Living Room""}",{},False,False,False
+Cancel washing,device-turnOff,washing-cancel,"{""device"": ""washing machine""}",{},False,False,False
+Cancel upper washer,device-turnOff,washing-cancel,"{""device"": ""upper washer""}","{""device"": ""washer"", ""predefinedCompartment:upper"": ""upper""}",False,False,False
+Cancel lower washer,device-turnOff,washing-cancel,"{""device"": ""washer""}","{""device"": ""washer"", ""predefinedCompartment:lower"": ""lower""}",False,False,False
+Cancel shoe dresser,device-turnOff,dressing-cancel,"{""device"": ""shoe dresser""}","{""device"": ""shoe dresser""}",False,True,False
+Turn up the projector volume,volume-setValue,volume-increase,"{""device"": ""projector"", ""volume"": ""40""}","{""device"": ""projector""}",False,False,False
+Turn up the projector volume by 2,volume-increase,volume-increase,"{""device"": ""projector"", ""value"": ""2""}","{""device"": ""projector"", ""volume"": ""2""}",True,False,False
+Turn up the monitor volume,volume-setValue,volume-increase,"{""device"": ""monitor"", ""volume"": ""40""}","{""device"": ""monitor""}",False,False,False
+Turn up the monitor volume by 2,volume-setValue,volume-increase,"{""device"": ""monitor"", ""volume"": ""2""}","{""device"": ""monitor"", ""volume"": ""2""}",False,True,False
+Increase the temperature in the air conditioner,deviceTemperatureSetting-setValue,deviceTemperatureSetting-increase,"{""device"": ""air conditioner"", ""temperature"": ""20""}","{""device"": ""air conditioner""}",False,False,False
+Volume up in the TV,volume-setValue,volume-increase,"{""device"": ""TV"", ""volume"": ""40""}","{""device"": ""TV""}",False,False,False
+Raise up TV volume by 2,volume-setValue,volume-increase,"{""device"": ""TV"", ""volume"": ""2""}","{""device"": ""TV"", ""volume"": ""2""}",False,True,False
+Volume up on the settop box,volume-setValue,volume-increase,"{""device"": ""settop box"", ""volume"": ""40""}","{""device"": ""settop box""}",False,False,False
+Turn down the projector volume,volume-decrease,volume-decrease,"{""device"": ""projector"", ""volume"": ""10""}","{""device"": ""projector""}",True,False,False
+Turn down the projector volume by 2,volume-decrease,volume-decrease,"{""device"": ""projector"", ""volume"": ""2""}","{""device"": ""projector"", ""volume"": ""2""}",True,True,True
+Turn down the monitor volume,volume-decrease,volume-decrease,"{""device"": ""monitor""}","{""device"": ""monitor""}",True,True,True
+Turn down the monitor volume by 2,volume-decrease,volume-decrease,"{""device"": ""monitor"", ""volume"": ""2""}","{""device"": ""monitor"", ""volume"": ""2""}",True,True,True
+Raise up settop box volume by 2,volume-setValue,volume-increase,"{""device"": ""settop box"", ""volume"": ""2""}","{""device"": ""settop box"", ""volume"": ""2""}",False,True,False
+Decrease the temperature in the air conditioner,deviceTemperatureSetting-decrease,deviceTemperatureSetting-decrease,"{""device"": ""air conditioner"", ""temperature"": ""10""}","{""device"": ""air conditioner""}",True,False,False
+Turn down TV volume by 2,volume-decrease,volume-decrease,"{""device"": ""TV"", ""volume"": ""2""}","{""device"": ""TV"", ""volume"": ""2""}",True,True,True
+Volume down on the settop box,device-turnDownVolume,volume-decrease,"{""device"": ""settop box""}","{""device"": ""settop box""}",False,True,False
+Go to the previous projector channel,device-turnOff,channel-setPrevious,"{""device"": ""projector""}","{""device"": ""projector""}",False,True,False
+Turn down settop box volume by 2,volume-decrease,volume-decrease,"{""device"": ""settop box"", ""volume"": ""2""}","{""device"": ""settop box"", ""volume"": ""2""}",True,True,True
+Change channel 13 on TV,channel-setByName,channel-setByNumber,"{""compartment"": ""channel"", ""device"": ""TV"", ""name"": ""HBO""}","{""channel"": ""13"", ""device"": ""TV""}",False,False,False
+Change channel to MBC on TV,channel-setByName,channel-setByName,"{""channel"": ""MBC"", ""compartment"": ""tv"", ""device"": ""TV""}","{""channel"": ""MBC"", ""device"": ""TV""}",True,False,False
+Change channel 13 on TV,channel-setByName,channel-setByNumber,"{""compartment"": ""channel"", ""device"": ""TV"", ""name"": ""HBO""}","{""channel"": ""13"", ""device"": ""TV""}",False,False,False
+Change the mode of the air conditioner to auto,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""auto""}","{""device"": ""air conditioner"", ""mode:auto"": ""auto""}",False,False,False
+Change the mode of the air conditioner to cool,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""cool""}","{""device"": ""air conditioner"", ""mode:cool"": ""cool""}",False,False,False
+Change the mode of the air conditioner to heat,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""heat""}","{""device"": ""air conditioner"", ""mode:heat"": ""heat""}",False,False,False
+Change the mode of the air conditioner to Ventilation,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""Ventilation""}","{""device"": ""air conditioner"", ""mode"": ""Ventilation""}",False,True,False
+Volume down in the TV,device-turnOff,volume-decrease,"{""device"": ""TV""}","{""device"": ""TV""}",False,True,False
+Go to projector channel 11,channel-setByName,channel-setByNumber,"{""compartment"": ""channel"", ""device"": ""projector"", ""name"": ""11""}","{""channel"": ""11"", ""device"": ""projector""}",False,False,False
+Go to TV channel 11,channel-setByName,channel-setByNumber,"{""channel"": ""11"", ""compartment"": ""tv"", ""device"": ""TV""}","{""channel"": ""11"", ""device"": ""TV""}",False,False,False
+Set the air conditioner temperature to 22,deviceTemperatureSetting-setValue,deviceTemperatureSetting-setValue,"{""device"": ""air conditioner"", ""temperature"": ""22""}","{""device"": ""air conditioner"", ""temperature"": ""22""}",True,True,True
+Set settop box channel to MBC,channel-setByName,channel-setByName,"{""channel"": ""MBC"", ""compartment"": ""tv"", ""device"": ""settop box""}","{""channel"": ""MBC"", ""device"": ""settop box""}",True,False,False
+Set the XXX mode of the refrigerator,mode-setValue,mode-setValue,"{""device"": ""refrigerator"", ""mode"": ""XXX""}","{""device"": ""refrigerator"", ""mode"": ""XXX""}",True,True,True
+Set the XXX mode as 400g of the refrigerator,deviceMode-setValue,mode-setValue,"{""device"": ""refrigerator"", ""mode"": ""400g""}","{""device"": ""refrigerator"", ""mode"": ""XXX""}",False,False,False
+Is cooktop on,cooktop-getStatus,powerSwitch-getStatus,"{""device"": ""cooktop"", ""location"": ""house""}","{""device"": ""cooktop""}",False,False,False
+Change the mode of the air conditioner to dehumidification,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""dehumidification""}","{""device"": ""air conditioner"", ""mode:dry"": ""dehumidification""}",False,False,False
+Is microwave on,device-turnOn,powerSwitch-getStatus,"{""device"": ""microwave""}","{""device"": ""microwave""}",False,True,False
+Mute the settop box,device-turnOff,mute-turnOn,"{""device"": ""settop box""}","{""device"": ""settop box""}",False,True,False
+Unmute the settop box,mute-turnOff,mute-turnOff,"{""device"": ""settop box""}","{""device"": ""settop box""}",True,True,True
+Notify switch status of the vent,deviceStatus-get,powerSwitch-getStatus,"{""device"": ""vent""}","{""device"": ""vent""}",False,True,False
+Is the vent on,device-turnOn,powerSwitch-getStatus,"{""device"": ""vent""}","{""device"": ""vent""}",False,True,False
+Exit on the monitor,device-turnOff,application-exit,"{""device"": ""monitor""}","{""device"": ""monitor""}",False,True,False
+Is the projector on,device-turnOn,powerSwitch-getStatus,"{""device"": ""projector""}","{""device"": ""projector""}",False,True,False
+Check the projector channel,channel-setByName,channel-getValue,"{""compartment"": ""channel"", ""device"": ""projector"", ""name"": ""HBO""}","{""device"": ""projector""}",False,False,False
+What level is the projector volume at,volume-getStatus,volume-getValue,"{""device"": ""projector""}","{""device"": ""projector""}",False,True,False
+What's the monitor volume,volume-getValue,volume-getValue,"{""device"": ""monitor""}","{""device"": ""monitor""}",True,True,True
+Is washer on,device-turnOn,powerSwitch-getStatus,"{""device"": ""washer""}","{""device"": ""washer""}",False,True,False
+Check the remaining time of the laundry in the washer,get-remaining-time,washing-getRemainingTime,"{""device"": ""washer""}","{""device"": ""washer""}",False,True,False
+Turn on MBC on TV,device-turnOn,channel-setByName,"{""device"": ""TV""}","{""channel"": ""MBC"", ""device"": ""TV""}",False,False,False
+What stage is the washer on,device-turnOn,washing-getProgress,"{""device"": ""washer""}","{""device"": ""washer""}",False,True,False
+Search Emma Watson in Youtube on the monitor,media-play,application-searchIn,"{""compartment"": ""Youtube"", ""device"": ""monitor"", ""title"": ""Emma Watson""}","{""appname:youtube"": ""Youtube"", ""device"": ""monitor"", ""title"": ""Emma Watson""}",False,False,False
+Mute the projector,mute-turnOn,mute-turnOn,"{""device"": ""projector""}","{""device"": ""projector""}",True,True,True
+Mute the monitor,mute-turnOn,mute-turnOn,"{""device"": ""monitor""}","{""device"": ""monitor""}",True,True,True
+Mute the TV,device-turnOff,mute-turnOn,"{""device"": ""TV""}","{""device"": ""TV""}",False,True,False
+Unmute the projector,mute-turnOff,mute-turnOff,"{""device"": ""projector""}","{""device"": ""projector""}",True,True,True
+Unmute the monitor,mute-turnOff,mute-turnOff,"{""device"": ""monitor""}","{""device"": ""monitor""}",True,True,True
+Unmute the TV,mute-turnOff,mute-turnOff,"{""device"": ""TV""}","{""device"": ""TV""}",True,True,True
+Start oven in bake mode for 90 mins,cooking-start,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""bake""}","{""device"": ""oven"", ""mode"": ""bake"", ""timer"": ""90 mins""}",False,False,False
+Play the projector,device-turnOn,media-play,"{""device"": ""projector""}","{""device"": ""projector""}",False,True,False
+Play the monitor,device-turnOn,media-play,"{""device"": ""monitor""}","{""device"": ""monitor""}",False,True,False
+Start oven in bake mode at 180 degrees for 90 mins,oven-setMode,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""bake""}","{""device"": ""oven"", ""mode"": ""bake"", ""temperature"": ""180"", ""timer"": ""90 mins""}",False,False,False
+Exit on projector,device-turnOff,application-exit,"{""device"": ""projector""}","{""device"": ""projector""}",False,True,False
+Open Netflix on TV,media-play,application-launch,"{""appname"": ""Netflix"", ""device"": ""TV"", ""title"": ""The Office""}","{""appname:netflix"": ""Netflix"", ""device"": ""TV""}",False,False,False
+Open Netflix on projector,media-play,application-launch,"{""appname"": ""Netflix"", ""device"": ""projector"", ""title"": ""The Office""}","{""appname:netflix"": ""Netflix"", ""device"": ""projector""}",False,False,False
+Launch Sports on projector,media-play,application-launch,"{""appname"": ""Sports"", ""device"": ""projector""}","{""appname"": ""Sports"", ""device"": ""projector""}",False,True,False
+Turn on MBC on projector,device-turnOn,channel-setByName,"{""device"": ""projector""}","{""channel"": ""MBC"", ""device"": ""projector""}",False,False,False
+Search Emma Watson in Youtube on projector,media-play,application-searchIn,"{""compartment"": ""Youtube"", ""device"": ""projector"", ""title"": ""Emma Watson""}","{""appname:youtube"": ""Youtube"", ""device"": ""projector"", ""title"": ""Emma Watson""}",False,False,False
+Open the refrigerator,device-turnOn,door-open,"{""device"": ""refrigerator""}","{""device"": ""refrigerator""}",False,True,False
+Open the left side door of the refrigerator,door-open,door-open,"{""device"": ""refrigerator"", ""door"": ""left""}","{""device"": ""refrigerator""}",True,False,False
+Open the right side door of the refrigerator,door-open,door-open,"{""device"": ""refrigerator"", ""door"": ""right""}","{""device"": ""refrigerator"", ""predefinedCompartment:right"": ""right side""}",True,False,False
+Close the left side door of the refrigerator,device-turnOff,door-close,"{""device"": ""refrigerator""}","{""device"": ""refrigerator""}",False,True,False
+Close the right side door of the refrigerator,device-turnOff,door-close,"{""device"": ""refrigerator""}","{""device"": ""refrigerator"", ""predefinedCompartment:right"": ""right side""}",False,False,False
+Is air dresser on,device-getStatus,powerSwitch-getStatus,"{""device"": ""air dresser""}","{""device"": ""air dresser""}",False,True,False
+Show RVC camera,device-turnOn,camera-show,"{""device"": ""RVC""}","{""device"": ""RVC camera""}",False,False,False
+Turn on the projector,device-turnOn,device-turnOn,"{""device"": ""projector""}","{""device"": ""projector""}",True,True,True
+Check the schedule of air conditioner,schedule-get,mode-getValue,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",False,True,False
+Turn on light when sunset,device-turnOn,device-turnOn,"{""device"": ""light""}","{""condition:ast:sunset"": ""sunset"", ""device"": ""light""}",True,False,False
+Turn on the air conditioner everyday at 10 o'clock,device-turnOn,device-turnOn,"{""device"": ""air conditioner""}","{""condition:recurrence:daily"": ""everyday"", ""condition:timeExpression"": ""10 o'clock"", ""device"": ""air conditioner""}",True,False,False
+Turn on living room,device-turnOn,device-turnOn,"{""device"": ""living room""}","{""location"": ""living room""}",True,False,False
+Turn off the device,device-turnOff,device-turnOff,"{""device"": ""TV""}",{},True,False,False
+Start auto clean of the air conditioner,cleaning-start,airConditioningMode-setValue,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",False,True,False
+Cancel air dresser,device-turnOff,dressing-cancel,"{""device"": ""air dresser""}","{""device"": ""air dresser""}",False,True,False
+Turn on the monitor,device-turnOn,device-turnOn,"{""device"": ""monitor""}","{""device"": ""monitor""}",True,True,True
+Open Netflix on the monitor,media-play,application-launch,"{""appname"": ""Netflix"", ""device"": ""monitor"", ""title"": ""The Office""}","{""appname:netflix"": ""Netflix"", ""device"": ""monitor""}",False,False,False
+Search Emma Watson in Google on TV,search-start,application-searchIn,"{""appname"": ""Google"", ""device"": ""TV"", ""title"": ""Emma Watson""}","{""appname"": ""Google"", ""device"": ""TV"", ""title"": ""Emma Watson""}",False,True,False
+Preheat range,preheat-start,device-turnOn,"{""compartment"": ""1"", ""device"": ""range"", ""temperature"": ""26""}","{""device"": ""range""}",False,False,False
+Start range in bake mode,bake-start,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""range""}","{""device"": ""range"", ""mode"": ""bake""}",False,False,False
+Turn on the shoe dresser,device-turnOn,dressing-start,"{""device"": ""shoe dresser""}","{""device"": ""shoe dresser""}",False,True,False
+Start upper range in bake mode,bake-start,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""upper""}","{""device"": ""range"", ""mode"": ""bake"", ""predefinedCompartment:upper"": ""upper""}",False,False,False
+Start range in bake mode at 180 degrees,deviceTemperatureSetting-setValue,cooking-startCourse,"{""device"": ""oven"", ""temperature"": ""180""}","{""device"": ""range"", ""mode"": ""bake"", ""temperature"": ""180""}",False,False,False
+Start range in bake mode for 90 mins,cooking-start,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""bake""}","{""device"": ""range"", ""mode"": ""bake"", ""timer"": ""90 mins""}",False,False,False
+Start range in bake mode at 180 degrees for 90 mins,cooking-start,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""bake"", ""temperature"": ""180""}","{""device"": ""range"", ""mode"": ""bake"", ""temperature"": ""180"", ""timer"": ""90 mins""}",False,False,False
+Preheat oven Upper,deviceTemperatureSetting-setValue,device-turnOn,"{""device"": ""oven""}","{""device"": ""oven"", ""predefinedCompartment:upper"": ""Upper""}",False,False,False
+Preheat oven Lower,ovenTemperatureSetting-decrease,device-turnOn,"{""device"": ""oven"", ""temperature"": ""100""}","{""device"": ""oven"", ""predefinedCompartment:lower"": ""Lower""}",False,False,False
+Start oven in bake mode,bake-start,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""bake""}","{""device"": ""oven"", ""mode"": ""bake""}",False,True,False
+Start upper oven in bake mode,bake-start,cooking-startCourse,"{""device"": ""oven"", ""mode"": ""on""}","{""device"": ""oven"", ""mode"": ""bake"", ""predefinedCompartment:upper"": ""upper""}",False,False,False
+Start oven in bake mode at 180 degrees,oven-setTemperature,cooking-startCourse,"{""device"": ""oven"", ""temperature"": ""180""}","{""device"": ""oven"", ""mode"": ""bake"", ""temperature"": ""180""}",False,False,False
+Turn on ventilator,device-turnOn,device-turnOn,"{""device"": ""ventilator""}","{""device"": ""ventilator""}",True,True,True
+Turn on the air conditioner at 10 o'clock,device-turnOn,device-turnOn,"{""device"": ""air conditioner""}","{""condition:timeExpression"": ""10 o'clock"", ""device"": ""air conditioner""}",True,False,False
+Turn off lights at 10 o'clock,device-turnOff,device-turnOff,"{""device"": ""lights""}","{""condition:timeExpression"": ""10 o'clock"", ""device"": ""lights""}",True,False,False
+Turn on fan,device-turnOn,device-turnOn,"{""device"": ""fan""}","{""device"": ""fan""}",True,True,True
+Turn off light when sunrise,device-turnOff,device-turnOff,"{""device"": ""#E1""}","{""condition:ast:sunrise"": ""sunrise"", ""device"": ""light""}",True,False,False
+Turn on the air conditioner Monday at 10 o'clock,device-turnOn,device-turnOn,"{""device"": ""air conditioner""}","{""condition:dayOfWeek:monday"": ""Monday"", ""condition:timeExpression"": ""10 o'clock"", ""device"": ""air conditioner""}",True,False,False
+Turn on the air conditioner when I get home,device-turnOn,device-turnOn,"{""device"": ""air conditioner""}","{""condition:presence:in"": ""get"", ""condition:presenceLocation"": ""home"", ""device"": ""air conditioner""}",True,False,False
+Turn on the device,device-turnOn,device-turnOn,"{""device"": ""tv1""}",{},True,False,False
+Turn on living room light,device-turnOn,device-turnOn,"{""device"": ""light""}","{""device"": ""light"", ""location"": ""living room""}",True,False,False
+Turn on the TV,device-turnOn,device-turnOn,"{""device"": ""tv""}","{""device"": ""TV""}",True,False,False
+Turn on the Air purifier,device-turnOn,device-turnOn,"{""device"": ""Air purifier""}","{""device"": ""Air purifier""}",True,True,True
+Turn on the speaker,device-turnOn,device-turnOn,"{""device"": ""speaker""}","{""device"": ""speaker""}",True,True,True
+Turn on air conditioner,device-turnOn,device-turnOn,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",True,True,True
+Turn on the air conditioner,device-turnOn,device-turnOn,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",True,True,True
+Turn on the outlet,device-turnOn,device-turnOn,"{""device"": ""outlet""}","{""device"": ""outlet""}",True,True,True
+Turn on the switch,device-turnOn,device-turnOn,"{""device"": ""switch""}","{""device"": ""switch""}",True,True,True
+Turn on the light,device-turnOn,device-turnOn,"{""device"": ""light""}","{""device"": ""light""}",True,True,True
+Turn off living room,device-turnOff,device-turnOff,"{""device"": ""living room""}","{""location"": ""living room""}",True,False,False
+Turn off living room light,device-turnOff,device-turnOff,"{""device"": ""light""}","{""device"": ""light"", ""location"": ""living room""}",True,False,False
+Turn off the TV,device-turnOff,device-turnOff,"{""device"": ""TV""}","{""device"": ""TV""}",True,True,True
+Turn off the Air purifier,device-turnOff,device-turnOff,"{""device"": ""Air purifier""}","{""device"": ""Air purifier""}",True,True,True
+Turn off the speaker,device-turnOff,device-turnOff,"{""device"": ""speaker""}","{""device"": ""speaker""}",True,True,True
+Turn off the air conditioner,device-turnOff,device-turnOff,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",True,True,True
+Turn on TV,device-turnOn,device-turnOn,"{""device"": ""tv""}","{""device"": ""TV""}",True,False,False
+Turn off the outlet,device-turnOff,device-turnOff,"{""device"": ""outlet""}","{""device"": ""outlet""}",True,True,True
+Turn off the switch,device-turnOff,device-turnOff,"{""device"": ""switch""}","{""device"": ""switch""}",True,True,True
+Turn off the light,device-turnOff,device-turnOff,"{""device"": ""light""}","{""device"": ""light""}",True,True,True
+Turn off the thermostat,device-turnOff,device-turnOff,"{""device"": ""thermostat""}","{""device"": ""thermostat""}",True,True,True
+Start cleaning,cleaning-start,cleaning-start,"{""device"": ""vaccum"", ""location"": ""house"", ""room"": ""Living Room""}",{},True,False,False
+Start auto clean on Robot vacuum,cleaning-start,cleaning-start,"{""device"": ""Robot vacuum"", ""location"": ""house"", ""room"": ""Living Room""}","{""device"": ""Robot vacuum""}",True,False,False
+Turn on Air purifier,device-turnOn,device-turnOn,"{""device"": ""air purifier""}","{""device"": ""Air purifier""}",True,False,False
+Start washing,washing-startCourse,washing-start,"{""compartment"": ""1"", ""device"": ""washing machine"", ""mode"": ""auto""}",{},False,False,False
+Start the dryer,device-turnOn,drying-start,"{""device"": ""dryer""}","{""device"": ""dryer""}",False,True,False
+Start Vacuum,cleaning-start,cleaning-start,"{""device"": ""vaccum"", ""location"": ""house"", ""room"": ""Living Room""}","{""device"": ""Vacuum""}",True,False,False
+Start air dresser,device-turnOn,dressing-start,"{""device"": ""air dresser""}","{""device"": ""air dresser""}",False,True,False
+Turn on humidifier,device-turnOn,device-turnOn,"{""device"": ""humidifier""}","{""device"": ""humidifier""}",True,True,True
+Start dishwasher,device-turnOn,dishWashing-start,"{""device"": ""diswasher""}","{""device"": ""dishwasher""}",False,False,False
+Turn on siren,device-turnOn,device-turnOn,"{""device"": ""siren""}","{""device"": ""siren""}",True,True,True
+Turn on hood,device-turnOn,device-turnOn,"{""device"": ""hood""}","{""device"": ""hood""}",True,True,True
+Turn off the projector,device-turnOff,device-turnOff,"{""device"": ""projector""}","{""device"": ""projector""}",True,True,True
+Turn off siren,device-turnOff,device-turnOff,"{""device"": ""siren""}","{""device"": ""siren""}",True,True,True
+Pause the cleaning,cleaning-stop,cleaning-pause,"{""location"": ""house"", ""room"": ""Living Room""}",{},False,False,False
+Turn off the monitor,device-turnOff,device-turnOff,"{""device"": ""monitor""}","{""device"": ""monitor""}",True,True,True
+Cancel dryer,device-turnOff,drying-cancel,"{""device"": ""dryer""}","{""device"": ""dryer""}",False,True,False
+Cancel dishwasher,device-turnOff,dishWashing-cancel,"{""device"": ""diswasher""}","{""device"": ""dishwasher""}",False,False,False
+Raise the temperature of the air conditioner,deviceTemperatureSetting-setValue,deviceTemperatureSetting-increase,"{""device"": ""air conditioner"", ""temperature"": ""20""}","{""device"": ""air conditioner""}",False,False,False
+Raise the speaker volume,volume-increase,volume-increase,"{""device"": ""speaker""}","{""device"": ""speaker""}",True,True,True
+Turn up the TV volume,volume-setValue,volume-increase,"{""device"": ""TV"", ""volume"": ""60""}","{""device"": ""TV""}",False,False,False
+Turn up the TV volume by 2,volume-setValue,volume-increase,"{""device"": ""TV"", ""volume"": ""2""}","{""device"": ""TV"", ""volume"": ""2""}",False,True,False
+Turn on the shoe dresser,device-turnOn,dressing-start,"{""device"": ""shoe dresser""}","{""device"": ""shoe dresser""}",False,True,False
+Raise brightness of living room light,brightness-setValue,brightness-increase,"{""brightness"": ""50"", ""device"": ""light""}","{""device"": ""light"", ""location"": ""living room""}",False,False,False
+Raise brightness of the light,brightness-setValue,brightness-increase,"{""brightness"": ""50"", ""device"": ""light""}","{""device"": ""light""}",False,False,False
+Lower the temperature of the air conditioner,deviceTemperatureSetting-decrease,deviceTemperatureSetting-decrease,"{""device"": ""air conditioner"", ""temperature"": ""20""}","{""device"": ""air conditioner""}",True,False,False
+Lower the speaker volume,volume-decrease,volume-decrease,"{""device"": ""speaker""}","{""device"": ""speaker""}",True,True,True
+Turn down the TV volume,volume-decrease,volume-decrease,"{""device"": ""TV""}","{""device"": ""TV""}",True,True,True
+Turn off Ventilator,device-turnOff,device-turnOff,"{""device"": ""Ventilator""}","{""device"": ""Ventilator""}",True,True,True
+Turn down the TV volume by 2,volume-decrease,volume-decrease,"{""device"": ""TV"", ""volume"": ""2""}","{""device"": ""TV"", ""volume"": ""2""}",True,True,True
+Lower brightness of living room light,brightness-setValue,brightness-decrease,"{""brightness"": ""50"", ""device"": ""light""}","{""device"": ""light"", ""location"": ""living room""}",False,False,False
+Lower brightness of the light,brightness-setValue,brightness-decrease,"{""brightness"": ""50"", ""device"": ""light""}","{""device"": ""light""}",False,False,False
+Turn off fan,device-turnOff,device-turnOff,"{""device"": ""fan""}","{""device"": ""fan""}",True,True,True
+Change the mode of the air conditioner to auto,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""auto""}","{""device"": ""air conditioner"", ""mode:auto"": ""auto""}",False,False,False
+Change the mode of the air conditioner to cooling,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""cooling""}","{""device"": ""air conditioner"", ""mode:cool"": ""cooling""}",False,False,False
+Change the mode of the air conditioner to heat,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""heat""}","{""device"": ""air conditioner"", ""mode:heat"": ""heat""}",False,False,False
+Change the mode of the air conditioner to purify,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""purify""}","{""device"": ""air conditioner"", ""mode:purify"": ""purify""}",False,False,False
+Change the mode of the air conditioner to AI comfort cooling,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""AI comfort cooling""}","{""device"": ""air conditioner"", ""mode:aiComfort"": ""AI comfort""}",False,False,False
+Turn off air conditioner,device-turnOff,device-turnOff,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",True,True,True
+Go to the previous TV channel,channel-previous,channel-setPrevious,"{""device"": ""TV""}","{""device"": ""TV""}",False,True,False
+Change the light color to Blue,colorMode-setValue,colorControl-setValue,"{""device"": ""light"", ""mode"": ""blue""}","{""device"": ""light"", ""predefinedColorName:blue"": ""Blue""}",False,False,False
+Change living room light dimming level to 25,brightness-setValue,brightness-setValue,"{""brightness"": ""25"", ""device"": ""light""}","{""brightness"": ""25"", ""device"": ""light"", ""location"": ""living room""}",True,False,False
+Turn off TV,device-turnOff,device-turnOff,"{""device"": ""TV""}","{""device"": ""TV""}",True,True,True
+Brighten living room light by 50 %,brightness-setValue,brightness-increase,"{""brightness"": ""50"", ""device"": ""light""}","{""brightnessDelta"": ""50"", ""device"": ""light"", ""location"": ""living room""}",False,False,False
+Dim the living room light by 50 %,brightness-setValue,brightness-decrease,"{""brightness"": ""50"", ""device"": ""light""}","{""brightnessDelta"": ""50"", ""device"": ""light"", ""location"": ""living room""}",False,False,False
+Change living room light color to Blue,colorMode-setValue,colorControl-setValue,"{""device"": ""light"", ""mode"": ""Blue""}","{""device"": ""light"", ""location"": ""living room"", ""predefinedColorName:blue"": ""Blue""}",False,False,False
+Change the level of living room light to 25,brightness-setValue,brightness-setValue,"{""brightness"": ""25"", ""device"": ""light""}","{""brightness"": ""25"", ""device"": ""light"", ""location"": ""living room""}",True,False,False
+Change the temperature for the air conditioner to 24,deviceTemperatureSetting-setValue,deviceTemperatureSetting-setValue,"{""device"": ""air conditioner"", ""temperature"": ""24""}","{""device"": ""air conditioner"", ""temperature"": ""24""}",True,True,True
+Set the thermostat to 29 degrees,deviceTemperatureSetting-setValue,deviceTemperatureSetting-setValue,"{""device"": ""thermostat"", ""temperature"": ""29""}","{""device"": ""thermostat"", ""temperature"": ""29""}",True,True,True
+Turn off Air purifier,device-turnOff,device-turnOff,"{""device"": ""Air purifier""}","{""device"": ""Air purifier""}",True,True,True
+Go to TV channel 11,channel-setByName,channel-setByNumber,"{""channel"": ""11"", ""compartment"": ""tv"", ""device"": ""TV""}","{""channel"": ""11"", ""device"": ""TV""}",False,False,False
+Change the light bulb dimming level to 25,brightness-setValue,brightness-setValue,"{""brightness"": ""25"", ""device"": ""light bulb""}","{""brightness"": ""25"", ""device"": ""light bulb""}",True,True,True
+Brighten the light by 50 %,brightness-setValue,brightness-increase,"{""brightness"": ""50"", ""device"": ""light""}","{""brightnessDelta"": ""50"", ""device"": ""light""}",False,False,False
+Dim the light by 50 %,brightness-setValue,brightness-decrease,"{""brightness"": ""50"", ""device"": ""light""}","{""brightnessDelta"": ""50"", ""device"": ""light""}",False,False,False
+Is the air pufifier on,device-turnOn,powerSwitch-getStatus,"{""device"": ""air purifier""}","{""device"": ""air pufifier""}",False,False,False
+Stop Vacuum,cleaning-stop,cleaning-stop,"{""device"": ""vaccum""}","{""device"": ""Vacuum""}",True,False,False
+Turn off humidifier,device-turnOff,device-turnOff,"{""device"": ""humidifier""}","{""device"": ""humidifier""}",True,True,True
+Is range on,range-setValue,powerSwitch-getStatus,"{""device"": ""range"", ""value"": ""on""}","{""device"": ""range""}",False,False,False
+Is dryer on,device-turnOn,powerSwitch-getStatus,"{""device"": ""dryer""}","{""device"": ""dryer""}",False,True,False
+Turn off hood,device-turnOff,device-turnOff,"{""device"": ""hood""}","{""device"": ""hood""}",True,True,True
+Is air conditioner on,device-turnOn,powerSwitch-getStatus,"{""device"": ""airConditioner""}","{""device"": ""air conditioner""}",False,False,False
+Check the temperature setting of the air conditioner,deviceTemperatureSetting-get,deviceTemperatureSetting-getValue,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",False,True,False
+Check the mode of the air conditioner,deviceMode-get,airConditioningMode-getValue,"{""device"": ""air conditioner""}","{""device"": ""air conditioner""}",False,True,False
+Start Cleaning,cleaning-start,cleaning-start,"{""device"": ""vaccum"", ""location"": ""house"", ""room"": ""Living Room""}",{},True,False,False
+Is oven on,oven-getStatus,powerSwitch-getStatus,"{""device"": ""oven"", ""location"": ""house""}","{""device"": ""oven""}",False,False,False
+Is speaker on,device-turnOn,powerSwitch-getStatus,"{""device"": ""speaker""}","{""device"": ""speaker""}",False,True,False
+What level is the speaker volume at,powerSwitch-getStatus,volume-getValue,"{""device"": ""speaker""}","{""device"": ""speaker""}",False,True,False
+Clean the living room,cleaning-start,cleaning-start,"{""device"": ""vaccum"", ""location"": ""living room""}","{""rvcLocation"": ""living room""}",True,False,False
+Check the dimming level of living room light,get-brightness,brightness-getValue,"{""device"": ""light""}","{""device"": ""light"", ""location"": ""living room""}",False,False,False
+Check the status of power on living room light,device-turnOn,powerSwitch-getStatus,"{""device"": ""light"", ""location"": ""Living Room""}","{""device"": ""light"", ""location"": ""living room""}",False,False,False
+Is light on,device-turnOn,powerSwitch-getStatus,"{""device"": ""light""}","{""device"": ""light""}",False,True,False
+Check the dimming level of the light,brightness-getValue,brightness-getValue,"{""device"": ""light""}","{""device"": ""light""}",True,True,True
+Clean near air conditioner,cleaning-start,cleaning-start,"{""device"": ""air conditioner""}","{""rvcObject"": ""air conditioner""}",True,False,False
+Check the status of power on outlet,device-turnOn,powerSwitch-getStatus,"{""device"": ""outlet""}","{""device"": ""outlet""}",False,True,False
+Is switch on,device-turnOn,powerSwitch-getStatus,"{""device"": ""switch""}","{""device"": ""switch""}",False,True,False
+Turn on the heat mat,device-turnOn,device-turnOn,"{""device"": ""heat mat""}","{""device"": ""heat mat""}",True,True,True
+Is thermostat on,device-turnOn,powerSwitch-getStatus,"{""device"": ""thermostat""}","{""device"": ""thermostat""}",False,True,False
+Is the TV on,device-turnOn,powerSwitch-getStatus,"{""device"": ""TV""}","{""device"": ""TV""}",False,True,False
+Check the TV channel,channel-setByName,channel-getValue,"{""compartment"": ""channel"", ""device"": ""TV"", ""name"": ""HBO""}","{""device"": ""TV""}",False,False,False
+What level is the TV volume at,volume-getValue,volume-getValue,"{""device"": ""TV""}","{""device"": ""TV""}",True,True,True
+Is dishwasher on,device-getStatus,powerSwitch-getStatus,"{""device"": ""dishwasher""}","{""device"": ""dishwasher""}",False,True,False
+Mute the TV,device-turnOff,mute-turnOn,"{""device"": ""TV""}","{""device"": ""TV""}",False,True,False
+Mute speaker,mute-turnOn,mute-turnOn,"{""device"": ""speaker""}","{""device"": ""speaker""}",True,True,True
+Unmute the TV,mute-turnOff,mute-turnOff,"{""device"": ""TV""}","{""device"": ""TV""}",True,True,True
+Unmute speaker,mute-turnOff,mute-turnOff,"{""device"": ""speaker""}","{""device"": ""speaker""}",True,True,True
+Turn on cooktop hood,device-turnOn,device-turnOn,"{""device"": ""cooktop hood""}","{""device"": ""cooktop hood""}",True,True,True
+Play the speaker,device-turnOn,media-play,"{""device"": ""speaker""}","{""device"": ""speaker""}",False,True,False
+Play the TV,device-turnOn,media-play,"{""device"": ""tv""}","{""device"": ""TV""}",False,False,False
+Pause the speaker,device-turnOff,media-pause,"{""device"": ""speaker""}","{""device"": ""speaker""}",False,True,False
+Turn on cooktop hood,device-turnOn,device-turnOn,"{""device"": ""cooktop hood""}","{""device"": ""cooktop hood""}",True,True,True
+Show device list in office,device-listing,device-getList,"{""location"": ""office""}","{""location"": ""office""}",False,True,False
+Show device list in home,device-list,device-getList,"{""location"": ""home""}","{""location"": ""home""}",False,True,False
+Exit on TV,device-turnOff,application-exit,"{""device"": ""tv""}","{""device"": ""TV""}",False,False,False
+Open Netflix on TV,media-play,application-launch,"{""appname"": ""Netflix"", ""device"": ""TV"", ""title"": ""The Office""}","{""appname:netflix"": ""Netflix"", ""device"": ""TV""}",False,False,False
+Turn on microwave hood,device-turnOn,device-turnOn,"{""device"": ""microwave hood""}","{""device"": ""microwave hood""}",True,True,True
+Launch Music on TV,media-play,application-launch,"{""compartment"": ""music"", ""device"": ""TV""}","{""appname:music"": ""Music"", ""device"": ""TV""}",False,False,False
+Launch home shopping plus on TV,homeShopping-launch,application-launch,"{""device"": ""TV""}","{""appname:homeShoppingPlus"": ""home shopping plus"", ""device"": ""TV""}",False,False,False
+Open google in web browser on TV,browser-open,application-launch,"{""device"": ""TV"", ""url"": ""https://www.google.com""}","{""appname:webBrowser"": ""web browser"", ""device"": ""TV"", ""title"": ""google""}",False,False,False
+Search Emma Watson in Youtube on TV,media-play,application-searchIn,"{""compartment"": ""Youtube"", ""device"": ""TV"", ""title"": ""Emma Watson""}","{""appname:youtube"": ""Youtube"", ""device"": ""TV"", ""title"": ""Emma Watson""}",False,False,False
+What devices are in my home,identify-device,device-getList,"{""location"": ""house""}","{""location"": ""home""}",False,False,False
+Tell me the device lists in livingroom,device-getList,device-getList,"{""location"": ""livingroom""}","{""location"": ""livingroom""}",True,True,True
+Preheat microwave,device-turnOn,device-turnOn,"{""device"": ""microwave""}","{""device"": ""microwave""}",True,True,True
+Close the refrigerator,device-turnOff,door-close,"{""device"": ""refrigerator""}","{""device"": ""refrigerator""}",False,True,False
+Close the garage door,device-turnOff,door-close,"{""device"": ""garage door""}","{""device"": ""garage door""}",False,True,False
+Start microwave in speed bake mode,cooking-start,cooking-startCourse,"{""device"": ""microwave"", ""mode"": ""bake""}","{""device"": ""microwave"", ""mode"": ""speed bake""}",False,False,False
+Start microwave in speed bake mode at 180 degrees,cooking-start,cooking-startCourse,"{""device"": ""microwave"", ""mode"": ""bake"", ""temperature"": ""180""}","{""device"": ""microwave"", ""mode"": ""speed bake"", ""temperature"": ""180""}",False,False,False
+Start microwave in speed bake mode for 30 mins,cooking-start,cooking-startCourse,"{""device"": ""microwave"", ""mode"": ""bake""}","{""device"": ""microwave"", ""mode"": ""speed bake"", ""timer"": ""30 mins""}",False,False,False
+Start microwave in speed bake mode at 180 degrees for 30 mins,cooking-start,cooking-startCourse,"{""device"": ""microwave"", ""mode"": ""bake"", ""temperature"": ""180""}","{""device"": ""microwave"", ""mode"": ""speed bake"", ""temperature"": ""180"", ""timer"": ""30 mins""}",False,False,False
+Turn on the mood lighting,device-turnOn,device-turnOn,"{""device"": ""mood lighting""}","{""device"": ""mood lighting""}",True,True,True
+Turn on the vent switch,device-turnOn,device-turnOn,"{""device"": ""vent switch""}","{""device"": ""vent switch""}",True,True,True
+Start shoe dresser,device-turnOn,dressing-start,"{""device"": ""shoe dresser""}","{""device"": ""shoe dresser""}",False,True,False
+Turn off the heating mat,device-turnOff,device-turnOff,"{""device"": ""heating mat""}","{""device"": ""heating mat""}",True,True,True
+Change the mode of the air conditioner to dehumidification,deviceMode-setValue,airConditioningMode-setValue,"{""device"": ""air conditioner"", ""mode"": ""dehumidification""}","{""device"": ""air conditioner"", ""mode:dry"": ""dehumidification""}",False,False,False
+Start washing in the dishwasher,washing-startCourse,dishWashing-start,"{""compartment"": ""top"", ""device"": ""dishes"", ""mode"": ""auto""}","{""device"": ""dishwasher""}",False,False,False
+Turn on interior lighting of kitchen,device-turnOn,device-turnOn,"{""device"": ""lighting""}","{""device"": ""interior lighting"", ""location"": ""kitchen""}",True,False,False
